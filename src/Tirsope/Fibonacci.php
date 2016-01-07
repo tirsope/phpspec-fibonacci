@@ -29,4 +29,20 @@ class Fibonacci
     {
         return $this->fibonacci($number - 1) + $this->fibonacci($number - 2);
     }
+
+    /**
+     * Computes the Fibonacci numbers up to a given number.
+     * @param $number
+     * @return array
+     */
+    public function fibonacciNumbersUpTo($number)
+    {
+        $fibonacci_numbers = [];
+
+        for($i = 0; $i <= $number; $i++) {
+            $fibonacci_numbers[] = $this->fibonacci($i);
+        }
+
+        return $fibonacci_numbers;
+    }
 }

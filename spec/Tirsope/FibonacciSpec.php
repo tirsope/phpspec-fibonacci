@@ -41,4 +41,14 @@ class FibonacciSpec extends ObjectBehavior
     {
         $this->fibonacci(12)->shouldReturn(144);
     }
+
+    function it_returns_fibonacci_numbers_up_to_zero()
+    {
+        $this->fibonacciNumbersUpTo(0)->shouldReturn([0]);
+    }
+
+    function it_returns_fibonacci_numbers_up_to_one()
+    {
+        $this->fibonacciNumbersUpTo(1)->shouldReturn([0, 1]);
+    }
 }
