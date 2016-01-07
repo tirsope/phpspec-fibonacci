@@ -1,0 +1,3 @@
+suites:
+    fibonacci_suite:
+        namespace: Tirsope

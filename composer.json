@@ -1,0 +1,19 @@
+{
+    "name": "tirsope/fibonacci",
+    "description": "Fibonacci series php kata",
+    "require-dev": {
+        "phpspec/phpspec": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Tirso peralta",
+            "email": "tirso.peralta@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tirsope\\": "src/Tirsope"
+        }
+    }
+}
