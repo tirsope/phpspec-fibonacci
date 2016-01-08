@@ -6,7 +6,7 @@ class Fibonacci
 {
     public function fibonacci($number)
     {
-        switch($number) {
+        switch ($number) {
             case 0:
                 return 0;
                 break;
@@ -39,7 +39,7 @@ class Fibonacci
     {
         $fibonacci_numbers = [];
 
-        for($i = 0; $i <= $number; $i++) {
+        for ($i = 0; $i <= $number; $i++) {
             $fibonacci_numbers[] = $this->fibonacci($i);
         }
 
